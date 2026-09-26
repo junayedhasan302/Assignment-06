@@ -95,3 +95,5 @@ export default function PlanCard({ workout, isPlan, onRemove, onDone }) {
     </article>
   );
 }
+
+

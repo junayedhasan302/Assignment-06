@@ -21,7 +21,7 @@ async function getWorkout(workoutId) {
 export default async function WorkoutDetailsPage({ params }) {
   const { id } = await params;
   const workout = await getWorkout(id);
-  
+
   if (!workout) {
     notFound();
   }
@@ -119,3 +119,4 @@ export default async function WorkoutDetailsPage({ params }) {
     </section>
   );
 }
+
