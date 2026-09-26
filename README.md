@@ -148,25 +148,60 @@ While building FitLog, I worked with several important concepts:
 
 ------------------------------------------------------------------------
 
-## 📂 Main Application Sections
+## 📁 Project Folder Structure
 
-``` text
-FitLog
+```text
+Assignment-06
 │
-├── 🏠 Home
-│   └── Workout Library
+├── .next/
+├── node_modules/
 │
-├── 🔎 Workout Details
-│   └── Detailed workout information
+├── src/
+│   ├── app/
+│   │   ├── exercise/
+│   │   │   ├── [id]/
+│   │   │   │   └── page.jsx
+│   │   │   └── page.jsx
+│   │   │
+│   │   ├── my-plan/
+│   │   │   └── page.jsx
+│   │   ├── globals.css
+│   │   ├── icon.png
+│   │   ├── layout.jsx
+│   │   ├── loading.jsx
+│   │   ├── not-found.jsx
+│   │   └── page.jsx
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── footer/
+│   │   │   └── page.jsx
+│   │   ├── library/
+│   │   │   └── page.jsx
+│   │   ├── library-card/
+│   │   │   └── page.jsx
+│   │   ├── my-plan/
+│   │   │   └── page.jsx
+│   │   ├── navbar/
+│   │   │   └── page.jsx
+│   │   ├── plan-card/
+│   │   │   └── page.jsx
+│   │   ├── toast-provider/
+│   │   │   └── page.jsx
+│   │   └── workout-actions/
+│   │
+│   └── context/
+│       └── page.jsx
 │
-├── 💾 Saved
-│   └── Saved workouts
-│
-└── 📋 My Plan
-    ├── Planned workouts
-    ├── Workout statistics
-    └── Completion tracking
-```
+├── .gitignore
+├── ASSETS-NOTE.md
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── README.md
 
 ------------------------------------------------------------------------
 
