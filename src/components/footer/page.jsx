@@ -1,6 +1,5 @@
 import Image from "next/image";
 import footerLogo from "@/assets/footer-logo.png";
-
 export default function Footer() {
   return (
     <footer className="border-t border-[#292e38] bg-[#0c0d10]">
