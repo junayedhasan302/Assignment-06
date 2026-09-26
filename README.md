@@ -203,59 +203,9 @@ Assignment-06
 ├── postcss.config.mjs
 └── README.md
 
-------------------------------------------------------------------------
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-``` bash
-git clone https://github.com/sabbirhossain-dev/Fit-Log.git
-```
-
-### 2. Navigate to the project
-
-``` bash
-cd Fit-Log
-```
-
-### 3. Install dependencies
-
-``` bash
-npm install
-```
-
-### 4. Start the development server
-
-``` bash
-npm run dev
-```
-
-### 5. Open in your browser
-
-``` text
-http://localhost:3000
-```
 
 ------------------------------------------------------------------------
 
-## 📡 API
-
-FitLog uses the FitLog API to retrieve workout data.
-
-**All Workouts**
-
-``` text
-https://api.api-store.workers.dev/api/fitlog
-```
-
-**Single Workout**
-
-``` text
-https://api.api-store.workers.dev/api/fitlog/:id
-```
-
-------------------------------------------------------------------------
 
 ## 🎯 Project Goal
 
@@ -270,9 +220,7 @@ UI, and deployment.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Developer
-
-**Junayed Hasan**
+**BY: Junayed Hasan**
 
 -   🎓 CSE Student --- Bangladesh University of Business & Technology
     (BUBT)
@@ -280,13 +228,3 @@ UI, and deployment.
 -   📧 <junayedhasan302@gmail.com>
 -   🆔 WEB14-0687
 
-------------------------------------------------------------------------
-
-## ⭐ Support
-
-If you find this project useful or interesting, consider giving the
-repository a ⭐ on GitHub.
-
-------------------------------------------------------------------------
-
-### Made with ❤️ by Junayed Hasan
