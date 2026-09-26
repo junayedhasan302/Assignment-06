@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowDownUp } from "lucide-react";
 import toast from "react-hot-toast";
-
 import { useFitLog } from "@/context/page";
 import PlanCard from "@/components/plan-card/page";
 
