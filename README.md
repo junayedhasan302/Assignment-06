@@ -1,5 +1,6 @@
 # 💪 FitLog --- Workout Library
 
+>Live Link: https://jhfitlog.vercel.app/
 > A modern workout management web application built with **Next.js** to
 > help users discover, save, plan, and track their daily workouts.
 
