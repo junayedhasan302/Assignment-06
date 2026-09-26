@@ -15,14 +15,13 @@ async function getWorkout(workoutId) {
   }
 
   const workouts = await response.json();
-
   return workouts.find((workout) => workout.id === Number(workoutId));
 }
 
 export default async function WorkoutDetailsPage({ params }) {
   const { id } = await params;
   const workout = await getWorkout(id);
-
+  
   if (!workout) {
     notFound();
   }
