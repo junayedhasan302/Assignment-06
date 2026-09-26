@@ -1,0 +1,1 @@
+Replace the placeholder asset folder contents with your four real PNG files before running the final build: src/assets/banner.png, src/assets/footer-logo.png, src/assets/logo.png, src/assets/save.png.
